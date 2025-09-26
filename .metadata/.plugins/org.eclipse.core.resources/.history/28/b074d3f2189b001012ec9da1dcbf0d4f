@@ -38,7 +38,7 @@ public class EntradaDados {
 			}
 		}	
 		System.out.println(
-	"Olá " + nome + " você é " + resultado+"..");
+	"Olá " + nome + " você é " + resultado);
 		
 		
 	}
