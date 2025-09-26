@@ -1,0 +1,15 @@
+package com.aula01;
+
+public class variaveis {
+	//Indicação da classe inicial
+	public static void main(String[] args) {
+		//Criação de variavel
+		String nome = "Danilo";
+		int idade = 23;
+		
+		System.out.print("Olá mundo!");
+		System.out.print(nome);
+		
+				
+	}
+}

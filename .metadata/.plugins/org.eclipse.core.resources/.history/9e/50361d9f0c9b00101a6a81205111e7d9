@@ -1,0 +1,19 @@
+package com.aula01;
+
+public class Condicional2 {
+	
+	public static void main(String[] args) {
+		
+		boolean resultado;
+		
+		if( false || false || true) {
+			resultado = true;
+		}else {
+			resultado = false;
+		}
+		
+		System.out.println(resultado);
+		
+	}
+	
+}

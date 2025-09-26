@@ -1,0 +1,58 @@
+package com.aula01;
+
+import java.util.Scanner;
+
+public class EntradaDados {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		
+		String nome;
+		int idade;
+		
+		//Mensagem de interação com o usuario
+		System.out.print("Digite seu nome: ");
+		//coleta digitação do usuario
+		nome = scan.nextLine();
+		/*
+		 nextLine() -> Lê uma linha de texto
+		 next() -> Lê a próxima palavra até
+		 espaço em branco
+		 nextInt() -> Lê um valor inteiro
+		 nextDouble() -> Lê um valor decimal
+		 nextBoolean() - Lê um valor boleano		  
+		 */
+		
+		System.out.print("Digite idade: ");
+		idade = scan.nextInt();
+		
+		String resultado;
+		
+		if(idade < 12) {
+			resultado="Criança";
+		}else {
+			if(idade < 18) {
+				resultado="Adolescente";
+			}else {
+				resultado="Adulto";
+			}
+		}	
+		System.out.println(
+	"Olá " + nome + " você é " + resultado);
+		
+		
+	}
+
+}
+
+
+/*
+String mediaFormatada = 
+String.format("%.2f", media);
+*/
+
+
+
+
+
+
