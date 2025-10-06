@@ -16,8 +16,7 @@ public class EntradaDados {
 		nome = scan.nextLine();
 		/*
 		 nextLine() -> Lê uma linha de texto
-		 next() -> Lê a próxima palavra até
-		 espaço em branco
+		 next() -> Lê a próxima palavra até 		 espaço em branco
 		 nextInt() -> Lê um valor inteiro
 		 nextDouble() -> Lê um valor decimal
 		 nextBoolean() - Lê um valor boleano		  
